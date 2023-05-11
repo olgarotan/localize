@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+header{
+	background-image: url(sky.png);
+	background-size: cover;
+	padding: 123px 0 138px 0;
+
+}
+
+main{
+	padding-top: 57px;
+	padding-bottom: 62px;
+}
+
+.container{
+	max-width: 1146px;
+	margin: auto; 
+	
+}
+
+footer{
+	background-image: linear-gradient(180deg, #003395 0%, #00205F 100%);
+	padding: 45px 0 83px 0;
+
+}
+
+
+nav{
+	background-color: #003395;
+	padding-top: 27px;
+	padding-bottom: 26px;
+	
+}
+
+.link{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 63px;
+}
+
+
+.header-text{
+	color: #003395;
+	font-weight: 500;
+	font-size: 54px;
+	line-height: 63px;
+	padding: 0;
+}
+
+.header-some-text{
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 27px;
+}
+
+.side-left{
+	display: inline-block;
+	width: 754px;
+	vertical-align: top;
+	margin-right: 25px;
+}
+
+h2{
+	padding-top: 13px;
+	padding-bottom: 15px;
+	border-top: #003395 2px solid;
+	border-bottom: #003395 2px solid ;
+	color: #003395;
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 32px;
+	
+}
+
+.text-h2{
+	color: #30233D;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	padding-bottom: 34px;
+	padding-top: 16px;
+}
+
+.side-right{
+	display: inline-block;
+	width: 362px;
+	
+}
+
+.side-right div{
+	border: solid 2px #33008D;
+	padding: 19px 19px 18px 19px;
+	margin-bottom: 55px;
+}
+
+.text-news{
+	margin: 14px, 17px, 14px, 17px;
+	background-color: #24B0FF;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 32px;
+}
+
+h3{
+	padding-top: 14px;
+	padding-left: 17px;
+	padding-bottom: 14px;
+	padding-left: 17px;
+}
+
+.text-about-news{
+	color: #30233D;
+	font-weight: 400;
+  	font-size: 16.2px;
+	line-height: 26px;
+	width: 324px;
+}
+
+.text-links{
+	background-color: #24B0FF;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 32px;
+}
+
+ul{
+	list-style: none;
+	color: #30233D;
+	font-weight: 400;
+	font-size: 16.2px;
+	line-height: 26px;
+	width: 279px;
+}
+
+.footer-text{
+	font-weight: 400;
+	font-size: 11.7px;
+	color: #FCFCFC;
+}
